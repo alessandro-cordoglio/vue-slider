@@ -16,6 +16,7 @@
     width: 700px;
     height: 300px;
     position: relative;
+    display: none;
 }
 
 .item img {
@@ -72,6 +73,9 @@
     bottom: 0;
 }
 
+.main_active{
+    display: block !important;
+}
 /*
 EXTRA: in questo esempio gli accordion vengono creati
 usando 2 bordi di un quadratino ruotato di 45 gradi
