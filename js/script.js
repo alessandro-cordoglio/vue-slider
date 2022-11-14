@@ -31,15 +31,15 @@ createApp({
     },
     methods:{
         NextSlide(){
-            if (this.active=this.slides.lenght - 1) {
-                active=0
+            if (this.active===this.slides.length - 1) {
+                this.active=0
             }else{
                 this.active++
             }
         },
         PrevSlide(){
-            if (this.active=this.slides.lenght - 1) {
-                active=0
+            if (this.active===this.slides.length - 1) {
+                this.active=0
             }else{
                 this.active--
             }
