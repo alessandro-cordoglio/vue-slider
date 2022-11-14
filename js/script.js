@@ -43,6 +43,9 @@ createApp({
             }else{
                 this.active--
             }
+        },
+        clickSlide(index){
+            this.active=index
         }
     }
     
